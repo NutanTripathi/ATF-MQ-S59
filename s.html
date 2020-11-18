@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>work</title>
+        <header>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <style>
+                .mySlides {display:none;}
+                </style>
+                <img src="logo2.jpg">
+                <ul>
+                    <li><a href="url">Home</a></li>
+                    <li><a href="url">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                 </ul>
+                <body>    
+                    <div class="w3-content w3-display-container">
+                        
+                        <div class="w3-display-container mySlides">
+                            <img src="slide1.jpg" style="width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+            </div>
+</div>
+
+<div class="w3-display-container mySlides">
+    <img src="swlide4.jpg" style="width:100%">
+    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    </div>
+</div>
+
+<div class="w3-display-container mySlides">
+    <img src="slide3.jpg" style="width:100%">
+    <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<script>
+    var slideIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1} 
+      x[slideIndex-1].style.display = "block"; 
+      setTimeout(carousel, 4000); 
+    }
+    </script>
+<link rel="stylesheet" type="text/css" href="art/ar style.css"> 
+<u><h1 style="font-size: 580%;text-decoration: red;color:red;text-align: center;background-color: rgb(5, 5, 5);">AUGMENTED REALITY</h1></u>
+</body>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<u><h2 style="color: blue;font-size: 400%;text-align: center;">What is it??</h2></u>
+<br>
+<br>
+<br>
+<br>
+ <U><h3 style="color: blue;font-size: 400%;text-align: center;">How it works??</h3></U>
+ <br>
+ <br>
+ <br>
+ <br>
+ <u><h4 style="color: blue;font-size: 400%;text-align: center;">Journey of Augmented Reality</h4></u>
+ <br>
+ <br>
+ <br>
+ <u><h5 style="color: chocolate;font-size: 350%;text-align: center;">-:Past:-</h5></u>
+ <br>
+ <br>
+ <br>
+ <u><h5 style="color: chocolate;font-size: 350%;text-align: center;">-:Present:-</h5></u>
+ <br>
+ <br>
+ <br>
+ <u><h5 style="color: chocolate;font-size: 350%;text-align: center;">-:Future:-</h5></u>
+ <br>
+ <br>
+ <br>
+ <br>
+ <u><h6 style="color: blue;font-size: 400%;text-align: center;">Features</h6></u>
+ <br>
+ <br>
+ <br>
+ <br>
+ <u><h4 style="color: purple;font-size: 400%;text-align: center;">Shaping a better future</h4></u>
+ <br>
+ <br>
+ <br>
+ <br>
+ <u><h4 style="color: purple;font-size: 400%;text-align: center;">Applications related AR</h4></u>   
+<div>
+    
+        <ul>
+            <u><p style="text-align: left;color: white;font-size: 140%;background-color: black;">*Creater</p></u>
+            <u><p style="text-align: left;color: white;font-size: 140%;background-color: black;">Tanima</p>
+            <u><p style="text-align: left;color: white;font-size: 140%;background-color: black;">Anuj</p></u>
+            
+        </ul>
+    
+</div>
+</head>
+</html>
+
